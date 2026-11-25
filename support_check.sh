@@ -84,4 +84,6 @@ elif [ "$auswahl" = "2" ]; then
   zeige_speicherplatz
 else
   echo "Ungueltige Auswahl"
+  exit 0
 fi
+
